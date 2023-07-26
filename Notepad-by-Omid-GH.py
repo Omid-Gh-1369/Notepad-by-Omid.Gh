@@ -1,4 +1,5 @@
-
+#This is a simple example of a text editor.
+#This file is created as an initial form.
 from tkinter import *
 
 window_3=Tk()
@@ -48,7 +49,3 @@ text=Text(window_3,background="gray20",yscrollcommand=scroll_bar.set,foreground=
 text.pack(side="left",expand=True,fill="both")
 scroll_bar.config(command=text.yview_moveto)
 window_3.mainloop()
-
-
-
-
