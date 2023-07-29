@@ -2,7 +2,7 @@ from tkinter import *
 
 N_P=Tk()
 N_P.title("Notepad_by_Omid-Gh")
-N_P.geometry("800x600+450+200")
+N_P.geometry("800x600+250+50")
 N_P.resizable(width=False, height=True)
 menubar=Menu(N_P)
     
